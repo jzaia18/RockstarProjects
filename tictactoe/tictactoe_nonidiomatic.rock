@@ -1,0 +1,101 @@
+(Display the board and play user's move)
+PrintBoard takes One and Two and Three and Four and Five and Six and Seven and Eight and Nine
+Shout One with Two with Three
+Shout Four with Five with Six
+Shout Seven with Eight with Nine
+
+(Tests if a user has won the game)
+TestWin takes One and Two and Three and Four and Five and Six and Seven and Eight and Nine and Letter
+PrintBoard taking One, Two, Three, Four, Five, Six, Seven, Eight, Nine
+(Check horizontals)
+If One is Letter and Two is Letter and Three is Letter
+Shout "Good game, the winner is: " plus Letter
+Give back True
+
+If Four is Letter and Five is Letter and Six is Letter
+Shout "Good game, the winner is: " plus Letter
+Give back True
+
+If Seven is Letter and Eight is Letter and Nine is Letter
+Shout "Good game, the winner is: " plus Letter
+Give back True
+
+(Check verticals)
+If One is Letter and Four is Letter and Seven is Letter
+Shout "Good game, the winner is: " plus Letter
+Give back True
+
+If Two is Letter and Five is Letter and Eight is Letter
+Shout "Good game, the winner is: " plus Letter
+Give back True
+
+If Three is Letter and Six is Letter and Nine is Letter
+Shout "Good game, the winner is: " plus Letter
+Give back True
+
+(Check diagonals)
+If One is Letter and Five is Letter and Nine is Letter
+Shout "Good game, the winner is: " plus Letter
+Give back True
+
+If Three is Letter and Five is Letter and Seven is Letter
+Shout "Good game, the winner is: " plus Letter
+Give back True
+
+Shout ""
+Give back nothing
+
+(Recursive function that runs the whole game)
+Game takes One and Two and Three and Four and Five and Six and Seven and Eight and Nine and Letter and Round
+Shout "Type a number, 1 is the top left, 2 is top middle, 3 is top right, 4 is middle left, etc. Enterring an invalid move or number will forfeit your move. Choose wisely."
+Listen to Move (Get user input)
+(Test input to see where to change the board)
+If Move is 1 and One is "-"
+Put Letter into One
+
+If Move is 2 and Two is "-"
+Put Letter into Two
+
+If Move is 3 and Three is "-"
+Put Letter into Three
+
+If Move is 4 and Four is "-"
+Put Letter into Four
+
+If Move is 5 and Five is "-"
+Put Letter into Five
+
+If Move is 6 and Six is "-"
+Put Letter into Six
+
+If Move is 7 and Seven is "-"
+Put Letter into Seven
+
+If Move is 8 and Eight is "-"
+Put Letter into Eight
+
+If Move is 9 and Nine is "-"
+Put Letter into Nine
+
+(Progress to the next round/end the game)
+If Round is weaker than 9
+If not TestWin taking One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Letter (Check if anyone has won)
+Put Round plus 1 into Round
+If Letter is "x"
+Letter says o
+Else
+Letter says x
+
+Game taking One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Letter, Round
+
+Else
+PrintBoard taking One, Two, Three, Four, Five, Six, Seven, Eight, Nine
+Shout "Good game, but you tied."
+
+
+
+Filler says -
+Letter says x
+Round is nothing
+
+Game taking Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Filler, Letter, Round

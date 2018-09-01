@@ -1,0 +1,33 @@
+Modulus takes Num and Div    (Renamed Mod function taken from example code)
+    While Num is as high as Div
+        Put Num minus Div into Num
+
+    Give back Num
+
+
+Listen to Number
+Counter is AA
+Two is AA
+Shout ""
+If Number is as weak as Two of Two
+    If Number is as weak as 1
+        Shout "<=1"
+    Else
+        If Number is as weak as 3
+            Shout "<4 & Prime"
+        Else
+            Shout "4 exactly"
+
+
+Else
+    While Number is greater than Counter
+        If Modulus taking Number, Counter is nothing
+            Shout "Not prime"
+            Break it down
+
+        Shout Counter
+        Build Counter up
+
+
+If Number is Counter and Number is stronger than Two of Two
+   Shout "Prime"
