@@ -1,36 +1,31 @@
-(Created by Jake Zaia)
-(Due to some compilers *cough* kaiser *cough* not taking well to whitespace,  )
-(  this file only has whitespace that is within comments.)
-
 Modulus takes Num and Div(Renamed Mod function taken from example code)
-(  )While Num is as high as Div
-(    )Put Num minus Div into Num
+    While Num is as high as Div
+        Put Num minus Div into Num
 
-(  )Give back Num
+Give back Num
 
 Listen to Number
 One is A
 Counter is AA
 Four is AAAA
 If Number is as weak as Four
-(  )If Number is as weak as One
-(    )Shout "<=1"
-(  )Else
-(    )If Number is weaker than Four
-(      )Shout "<4 & Prime"
-(    )Else
-(      )Shout "4 exactly"
-
+    If Number is as weak as One
+        Shout "<=1"
+    Else
+        If Number is weaker than Four
+            Shout "<4 & Prime"
+        Else
+            Shout "4 exactly"
 
 
 Else
-(  )While Number is greater than Counter
-(    )Put Modulus taking Number, Counter into Result
-(    )If Result is nothing
-(      )Shout "Not prime"
-(      )Break it down
+    While Number is greater than Counter
+        Put Modulus taking Number, Counter into Result
+        If Result is nothing
+            Shout "Not prime"
+            Break it down
 
-(    )Build Counter up
+        Build Counter up
 
 If Number is Counter and Number is stronger than Four
-(  )Shout "Prime"
+    Shout "Prime"
