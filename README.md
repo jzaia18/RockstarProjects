@@ -1,8 +1,11 @@
 # RockstarProjects
 Just a dump of random Rockstar code I have written.
 
+## Who are you?
+Just some RIT student who likes to program in Rock lyrics.
+
 ## What is Rockstar?
-Rockstar is an esoteric programming language. Check it out [here](https://github.com/dylanbeattie/rockstar)
+Rockstar is an esoteric programming language that reads like rock lyrics. Check out [the official repo](https://github.com/dylanbeattie/rockstar) for the language which explains it in detail.
 
 ## How do I run this?
 ~~I personally use the [Python transpilier](https://github.com/yanorestes/rockstar-py), but on the main Rockstar page there are various compilers and interpreters.~~
